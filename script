@@ -1,0 +1,15 @@
+// vars to pi and more...
+
+var PI = 3.141;
+
+// ask the user what the radius of the circle is
+
+var radius = promptNum("what is the radius of your circle so i can calculate the area");
+
+// gets the power r^2
+
+var power = radius * radius;
+
+// logs
+
+console.log("the area is " + PI * power);
